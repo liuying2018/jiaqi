@@ -36,8 +36,13 @@
                 lists:[{ 
                         value: '组织列表',
                         router:'organList'
+                    },
+                    { 
+                        value: '职位列表',
+                        router:'position'
                     }
-                    ]},
+                  ]
+                },
                 { 
                 title:'权限管理',
                 lists:[{ 
