@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import userList from '@/page/account/userList/userList'
 import organList from '@/page/account/organList/organList'
+import position from '@/page/account/position/position'
 import role from '@/page/account/role/role'
 import perList from '@/page/account/perList/perList'
 import accountInfor from '@/page/perCenter/accountInfor/accountInfor'
@@ -19,6 +20,9 @@ export default new Router({
     },{
       path: '/organList',
       component: organList
+    },{
+      path: '/position',
+      component: position
     },{
       path: '/role',
       component: role
